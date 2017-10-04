@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Drop D Records | Information</title>
+    <meta name="description" content="short description">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/final_project/final.css">
+    <script type="text/JavaScript">
+
+    </script>
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="info.html?page=about">ABOUT</a></li>
+            <li><a href="info.html?page=facilities">FACILITIES</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
+    <div class="site-wrap">
+        <div class="topbar">
+            <div class="topbarcontent"><img src="DropDLogo.png" id="logoimg" alt="logo"></div>
+        </div>
+        <header>
+            <h1>Drop D Records</h1>
+            <div>
+                <ul class="navigation2">
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="info.html?page=about">ABOUT</a></li>
+                    <li id="logo"><a href="/index.html"><img src="DropDLogo.png" id="logoimg" alt="logo"></a></li>
+                    <li><a href="info.html?page=facilities">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div id="infobanner">
+                <h1 id="title">About Us</h1>
+            </div>
+            <div class="offers">
+                <p id="paragraph">We are a premiere production company. Our goal is to supply opportunity to any musician who wishes for professional recordings of their art. We offer professional production studios at affordable rates.</p>
+            <a href="pricing.html">Click Here to Learn About Pricing</a>
+            </div>
+            <div class="contactfooter">
+                <h2>Contact Us</h2>
+                <div class="contactinfo">
+                    <dl>
+                        <dt>address:</dt>
+                        <dd>123 Somewhere Ln <br> New York, NY 10002</dd>
+                        <dt>phone:</dt>
+                        <dd>555-555-5555</dd>
+                        <dt>fax:</dt>
+                        <dd>555-123-4867</dd>
+                        <dt>email:</dt>
+                        <dd>contact@dropdrecords.com</dd>
+                    </dl>
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var uluru = {
+                                lat: 40.7831,
+                                lng: -73.9712
+                            };
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 10,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWwWGA7K3AHtmwCAYo3Psc5XdzwnwYgPU&callback=initMap">
+                    </script>
+                </div>
+            </div>
+        </main>
+        <footer>
+            &copy; 2017 Blaine Akers
+            <a href="temporary.html">Temporary Home Page</a>
+            <a href="/Homework/Project%20Proposal%20Final.html">Project Proposal</a>
+        </footer>
+    </div>
+
+    <script src="/final_project/dropd.js"></script>
+</body>
+</html>

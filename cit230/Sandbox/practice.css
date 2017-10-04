@@ -1,0 +1,67 @@
+header{
+    text-align: center;
+}
+
+
+nav ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navlinks li{
+    margin: 0 2em 0 0;
+    padding: 0;
+}
+
+
+.slide {
+display: flex;
+justify-content: center;
+flex-shrink: 2;
+flex-direction: column;
+position: relative;
+}
+
+.slide div{
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    margin-left: 25%
+
+
+}
+
+.slidetext h2{
+    text-align: center;
+}
+
+
+.contentlist {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-shrink: 2;
+    margin: auto;
+
+}
+
+.contentlist li{
+    text-align: center;
+    margin: 2em 2em 0 0;
+    flex: 1;
+}
+
+.contentlist p{
+    padding: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    flex-direction: row;
+
+}

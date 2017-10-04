@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Drop D Records | Home Page</title>
+        <meta name="description" content="short description">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/final_project/final.css">
+        <script type="text/JavaScript">
+
+        </script>
+    </head>
+    <body>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="final_project/info.html?page=about">ABOUT</a></li>
+                <li><a href="final_project/info.html?page=facilities">FACILITIES</a></li>
+                <li><a href="final_project/pricing.html">PRICING</a></li>
+                <li><a href="/final_project/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger"></label>
+        <div class="site-wrap">
+            <div class="topbar">
+                <div class="topbarcontent"><img src="final_project/DropDLogo.png" id="logoimg" alt="logo"></div>
+            </div>
+        <header>
+            <h1>Drop D Records</h1>
+            <div>
+                <ul class="navigation2">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="final_project/info.html?page=about">ABOUT</a></li>
+                    <li id="logo"><a href="index.html"><img src="final_project/DropDLogo.png" id="logoimg" alt="logo"></a></li>
+                    <li><a href="final_project/info.html?page=facilities">FACILITIES</a></li>
+                    <li><a href="/final_project/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div id="banner">
+                <h1>Welcome to Drop D Records!</h1>
+            </div>
+            <div class="offers">
+            <h2>Full Service Music Studio</h2>
+                <ul class="offerimg">
+                    <li><a href="final_project/info.html?page=facilities"><img src="final_project/solo.jpg" alt="solo"></a></li>
+                    <li><a href="final_project/info.html?page=facilities"><img src="final_project/band.jpg" alt="band"></a></li>
+                    <li><a href="final_project/info.html?page=facilities"><img src="final_project/electronic.jpg" alt="electronic"></a></li>
+                    <li><a href="final_project/info.html?page=facilities"><img src="final_project/production.jpg" alt="production"></a></li>
+                </ul>
+            </div>
+            <div class="testimonials">
+                <h2>Testimonials</h2>
+                <div id="test1">
+                <p>"Lorem ipsum sit amet, consectetur adipiscing eli. Sed quis augue pharetra, convallis sapien vel."</p>
+                <p>- Bob Bobby</p>
+                </div>
+                <div id="test2">
+                <p>"Lorem ipsum sit amet, consectetur adipiscing eli. Sed quis augue pharetra, convallis sapien vel."</p>
+                <p>- Richard Ricardo</p>
+                </div>
+            </div>
+            <div class="contactfooter">
+            <h2>Contact Us</h2>
+                <div class="contactinfo">
+                <dl>
+                    <dt>address:</dt>
+                    <dd>123 Somewhere Ln <br> New York, NY 10002</dd>
+                    <dt>phone:</dt>
+                    <dd>555-555-5555</dd>
+                    <dt>fax:</dt>
+                    <dd>555-123-4867</dd>
+                    <dt>email:</dt><dd>contact@dropdrecords.com</dd>
+                </dl>
+                <div id="map"></div>
+                <script>
+                    function initMap() {
+                        var uluru = {lat: 40.7831, lng: -73.9712};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 10,
+                            center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map
+                        });
+                    }
+                </script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWwWGA7K3AHtmwCAYo3Psc5XdzwnwYgPU&callback=initMap">
+                </script>
+            </div>
+            </div>
+        </main>
+        <footer>
+            &copy; 2017 Blaine Akers
+            <a href="temporary.html">Temporary Home Page</a>
+            <a href="/Homework/Project%20Proposal%20Final.html">Project Proposal</a>
+        </footer>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+body{
+    margin: 0;
+    border: 0;
+}
+
+
+
+body > .grey {
+    position: absolute;
+    height: 100%;
+    width: 1000px;
+    z-index: 9999;
+    background-color: grey;
+    opacity: 0;
+    transition:opacity 0.2s linear;
+    -webkit-transition-delay: 2.5s; /* Safari */
+    transition-delay: 2.5s;
+}
+
+body:hover > .grey {
+    opacity: 0.8;
+}
+
+.container {
+    width: 50%;
+    height: 130px;
+    margin: 20px auto;
+    margin-top: 10em;
+    overflow: hidden;
+    text-align: center;
+    line-height: 200px;
+    position: relative;
+    z-index:99999;
+}
+    img{
+        height: 125px;
+        position: relative;
+    }
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+    .scanner {
+        width: 200px;
+        height: 2px;
+        left: 0%;
+        box-shadow: 0px 0px 10px red;
+        background:#FF6464;
+        position: absolute;
+        animation: scan 3s infinite;
+        animation-timing-function: ease-in-out;
+        z-index:99999;
+        opacity: 0;
+    }
+
+.container:active > .scanner {
+    opacity: 1;
+    transition:opacity 0.2s ease-in-out;
+    -webkit-transition-delay: 0.01s; /* Safari */
+    transition-delay: 0.01s;
+}
+
+.active {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+@keyframes scan {
+
+    50% {
+        transform: translateY(128px);
+    }
+}
+
+
+
+@media screen and (min-width: 370px) {
+
+    .container {
+        height: 130px;
+        margin-top: 10em;
+    }
+
+    img{
+        height: 125px;
+    }
+
+    @keyframes scan {
+
+        50% {
+            transform: translateY(130px);
+        }
+    }
+}

@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Taviraj');
+
+html{
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+
+}
+
+body {
+    background-color: #363636;
+    color: white;
+    min-height: 100%;width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1 {
+    display: none;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+}
+
+li {
+    font-family: 'Taviraj', serif;
+}
+
+#logoimg {
+    width: 6em;
+}
+
+.navigation {
+    flex-direction: column;
+    padding-left: 0;
+    height: 110px;
+    padding: 2em;
+    background-color: #252525;
+}
+
+.navigation2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navigation2 a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navigation2 a:visited{
+    color: #FFDE18;
+}
+
+.navigation2 a:hover{
+    color: #E7EF61;
+}
+
+.navigation2 a:active{
+    color: grey;
+}
+
+.navigation li{
+    width: 6em;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:visited{
+    color: #FFDE18;
+}
+
+nav a:hover{
+    color: #E7EF61;
+}
+
+nav a:active{
+    color: grey;
+}
+
+#banner {
+    width: 100%;
+    height: 20em;
+}
+
+#banner {
+    background-image: url(/final_project/guitaramplarge.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 4em;
+
+
+}
+
+#pricingbanner {
+    width: 100%;
+    height: 20em;
+    background-image: url(/final_project/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pricingbanner h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 4em;
+}
+
+#contactbanner {
+    width: 100%;
+    height: 20em;
+}
+
+#contactbanner {
+    background-image: url(/final_project/drumset.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contactbanner h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 4em;
+
+
+}
+
+#infobanner {
+    width: 100%;
+    height: 20em;
+}
+
+#infobanner {
+    background-image: url(/final_project/microphone.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#infobanner h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 4em;
+
+
+}
+
+.offerimg {
+    justify-content: space-between;
+    padding-left: 0;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.offerimg li img {
+    border: 1px solid;
+}
+
+.offers h2 {
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    margin: .1em auto;
+    border: 1px solid;
+    width: 50%;
+}
+
+.offers {
+    padding-bottom: 1em;
+    background-color: #252525;
+}
+
+
+.testimonials h2 {
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    margin: .1em auto;
+    border: 1px solid;
+    width: 50%;
+}
+
+.testimonials {
+    background-color: #252525;
+    padding-bottom: 2em;
+    margin-bottom: 0;
+    padding-top: 2em;
+}
+
+#test1 {
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    margin: .1em auto;
+    border: 1px solid;
+    max-width: 70%;
+}
+
+#test2 {
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    margin: .1em auto;
+    border: 1px solid;
+    max-width: 70%;
+}
+
+#map {
+    width: 50%;
+    height: 300px;
+    background-color: grey;
+}
+
+.contactfooter h2 {
+    padding-left: 2em;
+    border: 1px solid;
+    margin-top: 0;
+    width: 40%;
+    text-align: center;
+    padding: 0;
+}
+.contactfooter {
+    background: #252525;
+    background-color: rgba(0,0,0,.6);
+    margin: .1em auto;
+    border: 1px solid;
+}
+.contactinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    padding-top: 0;
+    flex-wrap: wrap;
+
+
+}
+
+.site-wrap {
+    background-color: #252525;
+}
+
+.topbar {
+    width: 100%;
+    height: 7em;
+    background-color: #252525;
+    position: fixed;
+    margin-top: 0;
+}
+
+.topbarcontent img {
+    text-align: right;
+    position: fixed;
+    right: 0;
+}
+
+footer {
+    height: 2em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:visited{
+    color: #FFDE18;
+}
+
+footer a:hover{
+    color: #E7EF61;
+}
+
+footer a:active{
+    color: grey;
+}
+
+div a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+div a:visited{
+    color: #FFDE18;
+}
+
+div a:hover{
+    color: #E7EF61;
+}
+
+div a:active{
+    color: grey;
+}
+
+.offers a {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+#paragraph {
+    padding: 2em;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.pricing h2 {
+    background-color: rgba(0,0,0,.6);
+    margin: .1em auto;
+    border: 1px solid;
+    width: 40%;
+}
+
+.pricing ul {
+    padding-right: 2.5em;
+    padding-bottom: 2em;
+}
+
+.pricinglist li {
+    padding: .5em;
+}
+
+
+@media screen and (max-width: 34em){
+
+    .navigation2{
+        display: none;
+    }
+
+    .navigation {
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        margin-top: 0;
+    }
+
+
+    .site-wrap {
+        position: relative;
+        top: 0;
+        bottom: 100%;
+        left: 0;
+        z-index: 1;
+        height: 100vh;
+    }
+
+    .nav-trigger {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    label[for="nav-trigger"] {
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        z-index: 2;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background-image: url("hamburger.png");
+        background-size: contain;
+        margin-top: 2em;
+    }
+
+    .nav-trigger:checked + label {
+        left: 215px;
+    }
+
+    .nav-trigger:checked ~ .site-wrap {
+        left: 200px;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+    }
+
+    .nav-trigger + label, .site-wrap {
+        transition: left 0.2s;
+    }
+
+    #banner {
+        padding-top: 7em;
+    }
+
+    #contactbanner {
+        padding-top: 7em;
+    }
+
+    #infobanner {
+        padding-top: 7em;
+    }
+
+    #map {
+        min-width: 100%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 34em) {
+    .nav-trigger {
+        display:none;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+    .navigation2{
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+        overflow:hidden;
+        text-align: center;
+        list-style: none;
+        display: flex;
+
+
+    }
+
+    .navigation2 li{
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 5px;
+    }
+
+    .navigation2 > li > a{
+        display: block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+    }
+
+    .topbar {
+        display: none;
+    }
+}
